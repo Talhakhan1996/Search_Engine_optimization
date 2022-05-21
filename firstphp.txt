@@ -1,0 +1,16 @@
+<?php>
+error_reporting(0);
+
+$name=$_GET['txt1'];
+echo $name;
+?>
+<html>
+<body>
+<form method="get">
+<ul>
+<li><input type="text" name="txt1" placeholder="Enter Your Name"/></li>
+<li><input type="text" name="txt2" placeholder="Enter Your Last Name"/></li>
+<li><input type="text" name="txt3" placeholder="Enter Your Email Address"/></li>
+</ul>
+</body>
+</html>
